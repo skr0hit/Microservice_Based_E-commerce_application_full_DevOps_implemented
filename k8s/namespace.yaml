@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: eliteshop
+  labels:
+    name: eliteshop
+    environment: production

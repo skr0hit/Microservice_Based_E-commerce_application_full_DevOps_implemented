@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: eliteshop-config
+  namespace: eliteshop
+  labels:
+    app: eliteshop
+data:
+  # Application configuration
+  NODE_ENV: "production"
+  PORT: "8080"
+  # Add other non-sensitive configuration here
