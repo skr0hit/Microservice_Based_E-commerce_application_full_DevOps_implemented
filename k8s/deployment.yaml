@@ -40,7 +40,7 @@ spec:
               mountPath: /var/log/nginx
       containers:
         - name: eliteshop
-          image: eliteshop.azurecr.io/elite-shop:22
+          image: eliteshop.azurecr.io/elite-shop:23
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
