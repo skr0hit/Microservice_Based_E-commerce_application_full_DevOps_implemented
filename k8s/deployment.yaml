@@ -26,7 +26,7 @@ spec:
         fsGroup: 1001
       initContainers:
         - name: fix-permissions
-          image: eliteshop.azurecr.io/elite-shop:16
+          image: eliteshop.azurecr.io/elite-shop:17
           command: ["sh", "-c", "chown -R 1001:1001 /tmp /var/cache/nginx /var/log/nginx"]
           securityContext:
             runAsUser: 0
@@ -40,7 +40,7 @@ spec:
               mountPath: /var/log/nginx
       containers:
         - name: eliteshop
-          image: eliteshop.azurecr.io/elite-shop:16
+          image: eliteshop.azurecr.io/elite-shop:17
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
