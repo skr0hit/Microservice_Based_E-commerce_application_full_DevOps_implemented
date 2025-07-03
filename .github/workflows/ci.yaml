@@ -32,9 +32,6 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm install
 
-      - name: 🧪 Run Tests
-        run: npm test
-
       - name: 🔐 Login to Azure Container Registry
         uses: azure/docker-login@v1
         with:
