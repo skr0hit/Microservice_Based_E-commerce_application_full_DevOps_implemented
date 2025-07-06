@@ -176,7 +176,7 @@ function App() {
               Discover Amazing Products
             </h1>
             <p className="text-xl opacity-90 mb-6">
-              Shop the latest trends with fast shipping and unbeatable prices
+              Shop the latest trending products with fast shipping and unbeatable prices
             </p>
             <Button size="lg" variant="secondary">
               Explore Now
