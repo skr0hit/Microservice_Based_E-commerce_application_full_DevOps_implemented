@@ -1,4 +1,4 @@
-# EliteShop - Docker & AKS Deployment Guide
+# EliteShop - Docker & AKS Deployment Guide .
 
 This guide provides step-by-step instructions for containerizing and deploying the EliteShop application to Azure Kubernetes Service (AKS) following industry best practices.
 
